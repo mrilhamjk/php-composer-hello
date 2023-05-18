@@ -1,0 +1,19 @@
+{
+  "name": "pzn/php-composer-hello",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ilham Jaya Kusuma",
+      "email": "ilhamjkid@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PZN\\Belajar\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
